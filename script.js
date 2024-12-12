@@ -1,6 +1,6 @@
 // Your Custom Search Engine ID and API Key
-const cx = '544406d1dbf464978';  // Custom Search Engine ID cx=544406d1dbf464978
-const apiKey = 'AIzaSyDbhE3sUcN9nicaZ6z-r7uwH0So3zRmZEM';  // API Key
+const cx = '';  // Custom Search Engine ID cx=544406d1dbf464978
+const apiKey = '';  // API Key
 
 // Function to trigger search for donation websites based on category
 function searchDonateWebsites(query) {
@@ -130,12 +130,12 @@ document.querySelectorAll('.learn-more').forEach((link) => {
 
 
 
-// const apiKey = 'e5e4dc4e12af4f8880e33e94cf9d01cf';
+// const apiKey = '';
 
 // Function to fetch and display refugee-related news with images
 
 async function fetchRefugeeNews() {
-  const apiKey = 'e5e4dc4e12af4f8880e33e94cf9d01cf'; // Your NewsAPI key
+  const apiKey = ''; // Your NewsAPI key
   // Using a more refined query to fetch refugee-related news
   const apiUrl = `https://newsapi.org/v2/everything?q=refugee OR asylum OR displacement&language=en&apiKey=${apiKey}`;
 
